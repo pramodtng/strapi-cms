@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latests",
+  "info": {
+    "singularName": "latest",
+    "pluralName": "latests",
+    "displayName": "Latest",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "sellingPrice": {
+      "type": "integer"
+    },
+    "discPrice": {
+      "type": "integer"
+    }
+  }
+}
